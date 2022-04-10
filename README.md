@@ -1,2 +1,4 @@
 # leetcode
-Leetcode task solutions
+
+One task per day keeps the doctor away.
+
