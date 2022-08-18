@@ -64,7 +64,6 @@ linters:
     - nakedret # Finds naked returns in functions greater than a specified function length.
     - nilerr # Finds the code that returns nil even if it checks that the error is not nil.
     - noctx # Noctx finds sending http request without context.Context.
-    - paralleltest # Paralleltest detects missing usage of t.Parallel() method in your Go test.
     - prealloc # Finds slice declarations that could potentially be preallocated.
     - predeclared # Find code that shadows one of Go's predeclared identifiers.
     - unparam # Reports unused function parameters.
