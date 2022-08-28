@@ -23,7 +23,7 @@ func numIslands(grid [][]byte) int {
 	return num
 }
 
-func discoverIsland(r int, c int, grid [][]byte, visited [][]bool) {
+func discoverIsland(r, c int, grid [][]byte, visited [][]bool) {
 	if r < 0 || r >= len(grid) || c < 0 || c >= len(grid[0]) {
 		return
 	}
