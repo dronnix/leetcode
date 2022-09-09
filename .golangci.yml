@@ -58,7 +58,6 @@ linters:
     - gofmt # Gofmt checks whether code was gofmt-ed (with -s).
     - goimports # Check imports order.
     - gosec # Inspects source code for security problems.
-    - ifshort # Checks that your code uses short syntax for if-statements whenever possible.
     - lll # Check lines length.
     - makezero # Finds slice declarations with non-zero initial length.
     - nakedret # Finds naked returns in functions greater than a specified function length.
