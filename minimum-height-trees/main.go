@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//https://leetcode.com/problems/minimum-height-trees/
+// https://leetcode.com/problems/minimum-height-trees/
 func findMinHeightTrees(n int, edges [][]int) (res []int) {
 	if n == 1 {
 		return []int{0}
