@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// The task: https://leetcode.com/problems/reorder-list/
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
