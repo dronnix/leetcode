@@ -28,8 +28,7 @@ func (h *IntHeap) Pop() interface{} {
 }
 
 func findKthLargest(nums []int, k int) int {
-	var hp IntHeap
-	hp = make([]int, 0, k)
+	var hp IntHeap = make([]int, 0, k)
 	h := &hp
 
 	for _, n := range nums {
